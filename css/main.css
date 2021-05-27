@@ -1,0 +1,83 @@
+*{
+    font-family: 'roboto'
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.headflex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    padding-right: 80px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.image_text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: white;
+    font-size: 100px;
+}
+
+.april_2020{
+    border: solid 1px black;
+    margin: auto;
+    width: 70%;
+    margin-top: 75px;
+    
+}
+
+.button {
+    background-color: gold;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 100%;
+}
+
+.footer{
+    padding-right:200px;
+    padding-left:50px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+.footflex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding:25px;
+}
+
+.raisinflex{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    width: 70%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.raisinflex img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.footer img{
+    height: 200px;
+    width: 250px;
+}
